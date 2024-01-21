@@ -1,0 +1,102 @@
+.home_body .db img{
+    width: 100%;
+    height: auto;
+}
+
+.home_services{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+.home_services .card_1{
+    width: 340px;
+    height: 590px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 10px 8px 20px 0px rgba(0, 0, 0, 0.20);
+    margin: 40px 25px;
+}
+.home_services .card_1 .serv_img{
+    height: 250px;
+    background: radial-gradient(96.65% 96.65% at 50% 3.35%, #c4e289 0%,  #8fbb28 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px 25px 0 0;
+}
+.home_services .card_1 .serv_img img{
+    width: auto;
+    height: 170px;
+}
+.home_services .card_1 .serv_cont{
+    margin: 2px 20px 20px 20px;
+    width: auto;
+    height: 200px;
+    word-wrap: break-word;
+    text-align: justify;
+    font-family: "Inter";
+}
+.home_services .card_1 .serv_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home_services .card_1 .serv_btn button[type="submit"]{
+    background-color: #FD7702;
+    border: none;
+    width: 125px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    color:#ffffff;
+}
+.home_services .cd{
+    transition: 400ms;
+}
+.home_services .cd:hover{
+    transform: scale(1.05, 1.05);
+}
+.home_services:hover > .cd:not(:hover){
+    /* filter: blur(2px); */
+  transform: scale(0.98, 0.98);
+}
+.home_services .serv_head{
+    font-family: DM Sans;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    color: #204206;
+    font-weight: 600;
+}
+.faq{
+    margin: 20px 0 80px 0;
+}
+.faq .faq_head{
+    font-family: DM Sans;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 30px 0;
+    color: #000000;
+}
+.home_service_section .service_head{
+    font-family: DM Sans;
+    letter-spacing: 1px;
+    font-size: 40px;
+    padding-top: 50px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+}
+.home_service_section{
+    background-image: url("../../assets/Frame\ 37193.svg");
+    background-size: cover;
+    height: auto;
+    min-height: 800px;
+}
